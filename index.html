@@ -2,69 +2,182 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Norman Cerros // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Norman Cerros</title>
 </head>
 
 <body>
-  <header>
-    <h1>Norman Cerros</h1>
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact Me</a>
-    </nav>
-  </header>
+    <!-----------------Navbar-->
+    <div class="" id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
 
-  <main>
-    <section class="sand-banner">
-      <div class="centerdiv-banner">
-        <h2>Full Stack<br>Web Developer</h2>
-        <h3>Front-end and<br>back-end
-          creating<br>a better experience </h2>
-      </div>
-    </section>
-
-    <section class="norman-links">
-      <h4>About me</h4>
-      <div class="abou-me-link" id="about">
-        <img src="./assets/images/norman.jpeg" alt="norman" class="float-left" height="350px" width="450px">
-        <p>
-          Hello, I’m Norman. A Full Stack Web Developer committed to develop and fix
-          details and optimized apps. I am a Jr programmer with good knowledge of
-          front-end techniques. To achieve further knowledge it's fundamental to
-          work in a team to learn and contribute to develop a brand. I am a full stack web
-          development student from the SMU Coding Bootcamp in Dallas, TX. I Also have a B.S.
-          in Psychology from UTDallas.
-        </p>
-      </div>
-
-      <h4>Work</h4>
-      <div class="portfolio-link" id="work">
-        <div class="link1">
-          <h5>Bio</h5>
-          <img src="./assets/images/code.jpeg" alt="code" class="float-left" height="300px" width="650">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!----------Home Page---------->
+        <div class="front-page">
+            <img src="./images/Norman.jpeg" alt="Norman" class="img-fluid" height="700px" width="100%">
+        </div>
+        <div class="pic-content text-center">
+            <h5>Hi, I'm</h5>
+            <h1>Norman Cerros</h1>
+            <p>CREATING MY NEW WORLD</p>
         </div>
 
-        <div class="link2">
-          <h5>Prework-About-Me</h5>
-          <img src="./assets/images/desk.jpeg" alt="desk" class="float-left" height="300px" width="600">
-        </div>
-      </div>
+    </div>
 
-      <h4>contact</h4>
-      <div class="contact-link" id="contact">
-        <img src="./assets/images/phone.jpeg" alt="phone" class="float-left" height="300px" width="600px">
-        <ul>
-          <li><strong>Tel: 9728002743</strong> <a href="tel:+9728000000"></a></li>
-          <li><strong>GittHub: ncerros</strong> <a href="https://github.com/ncerros"></a></li>
-          <li><strong>Email: n_cerros@hotmail.com</strong> <a href="n_cerros@hotmail.com"></a></li>
-        </ul>
-    </section>
-  </main>
+    <!------------------About Me Page------------------->
+    <div id="about" class="container mt-4 pb-4">
+        <div class="about-text text-center">
+            <h3 class="display-4 font-weight-bold">About Me</h3>
+            <hr class="w-50 mx-auto pb-5">
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <img src="./images/Norman.jpeg" alt="Norman" class="img-fluid" width="100%" height="40%">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <h2>Something About Me!</h2>
+                <hr>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Assumenda quia sint optio eligendi ut mollitia
+                    minus quas tempore, beatae aspernatur repellat amet
+                    excepturi soluta voluptatem perferendis. Laboriosam
+                    sapiente sit tempore!</P>
+            </div>
+        </div>
+    </div>
+    <!----------------------Work Page------------------->
+    <div id="work" class="container mt-3 pb-5">
+        <div class="work-text text-center">
+            <h3 class="display-4 font-weight-bold">Work</h3>
+            <hr class="w-50 mx-auto pb-7">
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <img src="./images/Sports-Event-Search.png" class="card-img-top" alt="roatan1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sport-Event-Search</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <img src="./images/Weather-Dashboard.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <img src="./images/Workdayschedule.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Work day schedule</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <img src="./images/codequiz.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Code Quiz</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <img src="./images/Password Generator.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Password Generator</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--------------------Contact Page-------------------------->
+    <div id="contact" class="container mt-3 mb-5">
+        <div class="contact-text text-center">
+            <h3 class="display-4 font-weight-bold">Contact</h3>
+            <hr class="w-50 mx-auto pb-5">
+
+            <!--------------------- Footer ----------------------->
+            <div class="container-fluid">
+                <!-- Footer -->
+
+
+
+
+
+
+
+                
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+                integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,149 +1,56 @@
-/*  color */
-
-* {
-  text-decoration: none;
-  box-sizing: border-box;
-}
 body {
-  height: 110px;
-  width: 100%;
-}
-
-header {
+  box-sizing: border-box;
   margin: 0px;
-  padding: 15px 6% 15px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  color: #f3f3f3;
-  background-color: rgb(56 60 70);
-  
+  padding: 0px;
+  font-family: 'Noto Sans TC', sans-serif;
+  overflow-x:  hidden;
+ 
 }
+.navbar {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px;
+  background: rgb(0,0,0,0.7) !important;
 
-header h1 {
-  color: white;
-  padding-left: 10px;
-  margin: 0px;
-  font-size: 4vw;
-  line-height: 1;
-  text-align: left;
 }
+.navbar-dark .navbar-nav .nav-link {
+  padding-left: 15px;
+  color: #fff;
 
-nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  color: #f3f3f3;
 }
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: aqua;
 
-nav a {
-  
-  padding: 10px;
-  color: white;
-  margin-right: 0px;
-  font-size: 1.4rem;
 }
-.sand-banner {
-  height: 400px;
+.pic-content {
+  position: absolute;
+  top: 80%;
   width: 100%;
-  margin-bottom: 0px;
-  background-image: url("../images/sand.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: table;
+  max-width: 100%;
 }
-.centerdiv-banner {
-  display: table-cell;
-  vertical-align: middle;
-
+.pic-content h5 {
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 35px;
+  color: aliceblue;
 }
-
-
-.sand-banner h2 {
-  text-align: center;
+.pic-content h1 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: bolder;
   font-size: 55px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #f3f3f3;
-  line-height: 65px;
-
+  color: aliceblue;
 }
-.sand-banner h3 {
-  font-weight: 100;
-  text-align: center;
-  font-size: 25px;
-  font-style: italic;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #f3f3f3;
-  text-align: center;
-  line-height: 35px;
-
-}
-h4 {
-  font-size: 32px;
-  font-weight: 700;
-  text-align: center;
-  color: #666565;
+.pic-content p {
+  font-family: 'Noto Sans TC', sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  font-size: 16px;
+  color: aliceblue;
 }
 
-.norman-links div {
-  width: cal(100% - 40px);
-  height: 400px;
-  margin: 0px;
-  background-color: rgb(221, 219, 219)
-}
-.float-left {
-  float: left;
-  margin: 10px;
-  
-}
-.abou-me-link {
-  padding: 40px;
-  text-align: center;
-  font-size: 25px; 
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  color: #666565;
-  
-}
-.abou-me-link img {
-  padding-bottom: 40px
-  
-}
-.abou-me-link p {
-  padding 50px;
 
-}
 
-.portfolio-link {
-  padding-bottom: 5px;
-  display: flex;
-  justify-content: center;
-}
-.link1,
-.link2 {
-  margin: 0px;
-  font-size: 20px;
-  font-weight: 300;
-  text-align: center;
-  color: #666565;
-  
 
-}
-.contact-link {
-  padding: 40px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
- }
-
- li {
-  padding-bottom: 10px;
-  font-size: 25px; 
-  text-align: left;
-  color: #666565;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  } 

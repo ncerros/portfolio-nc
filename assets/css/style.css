@@ -4,7 +4,13 @@ body {
   padding: 0px;
   font-family: 'Noto Sans TC', sans-serif;
   overflow-x:  hidden;
- 
+
+}
+
+.offset:before {
+  content: "";
+  display: block;
+  height: 60px;
 }
 .navbar {
   font-size: 15px;
@@ -51,6 +57,45 @@ body {
   color: aliceblue;
 }
 
+/* ------------Media Q---- */
+@media screen and (max-width:767px) {
+  .navbar {
+      padding: 10px;
+      
+  }
+  .pic-content h5 {
+      font-size: 25px;
+      
+  }
+  .pic-content h1 {
+      font-size: 25px;
+      
+  }
+  .pic-content p {
+      font-size: 14px;
+  }
+ 
+}
+
+@media screen and (max-width:479px) {
+  .navbar {
+      padding: 7px;
+      
+  }
+  .pic-content h5 {
+      font-size: 20px;
+      
+  }
+  .pic-content h1 {
+      font-size: 20px;
+      
+  }
+  .pic-content p {
+      font-size: 11px;
+      
+  }
+
+}
 
 
 

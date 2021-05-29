@@ -5,7 +5,7 @@
  Technologies used:
  .Bootstrap
  .Fontawesome
- .JQuery
+ 
 
 
-![newscreencapture](https://user-images.githubusercontent.com/72178042/113497765-8f19bd00-94cc-11eb-9a79-b08b015d3e65.png)
+![screencapture-127-0-0-1-5501-2021-05-29-02_29_03](https://user-images.githubusercontent.com/72178042/120063730-3b3fd600-c02e-11eb-8e3e-10c7573b53f2.png)

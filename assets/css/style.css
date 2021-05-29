@@ -29,8 +29,9 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: aqua;
 
-  /* ------------about--------------- */
 }
+  /* ------------about--------------- */
+
 .pic-content {
   position: absolute;
   top: 140%;
@@ -57,32 +58,20 @@ body {
   font-size: 16px;
   color: aliceblue;
 }
-b {
+
+a1 {
   font-size: 20px;
   color: rgb(94, 92, 92);
   box-shadow: 0 1px 5px rgb(46, 45, 45);
-  border-radius: 20px;
+  border-radius: 10px;
   background-image: linear-gradient(hsla(31, 85%, 69%, 0.973), #b5b7b8be);
 }
-b:hover {
-  opacity: 1;
-	transform: scale(1.05);
-	box-shadow: 0 2px 5px rgb(96, 133, 228);
-}
 
-c {
-  font-size: 15px;
-  color: rgb(94, 92, 92);
-  box-shadow: 0 1px 5px rgb(46, 45, 45);
-  border-radius: 20px;
-  background-image: linear-gradient(hsla(31, 85%, 69%, 0.973), #b5b7b8be);
+a1:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 2px 5px rgb(109, 230, 221);
 }
-c:hover {
-  opacity: 1;
-	transform: scale(1.05);
-	box-shadow: 0 2px 5px rgb(96, 133, 228);
-}
-
 
 p3 {
   color: rgb(59, 56, 56);
@@ -156,7 +145,6 @@ img.img-fluid {
   border-radius: 20px;
   height: 50%;
 }
-
 
 .card img:hover {
 	opacity: 1;

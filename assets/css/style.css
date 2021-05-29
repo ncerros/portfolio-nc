@@ -29,6 +29,7 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: aqua;
 
+  /* ------------about--------------- */
 }
 .pic-content {
   position: absolute;
@@ -56,13 +57,174 @@ body {
   font-size: 16px;
   color: aliceblue;
 }
+b {
+  font-size: 20px;
+  color: rgb(94, 92, 92);
+  box-shadow: 0 1px 5px rgb(46, 45, 45);
+  border-radius: 20px;
+  background-image: linear-gradient(hsla(31, 85%, 69%, 0.973), #b5b7b8be);
+}
+b:hover {
+  opacity: 1;
+	transform: scale(1.05);
+	box-shadow: 0 2px 5px rgb(96, 133, 228);
+}
+
+c {
+  font-size: 15px;
+  color: rgb(94, 92, 92);
+  box-shadow: 0 1px 5px rgb(46, 45, 45);
+  border-radius: 20px;
+  background-image: linear-gradient(hsla(31, 85%, 69%, 0.973), #b5b7b8be);
+}
+c:hover {
+  opacity: 1;
+	transform: scale(1.05);
+	box-shadow: 0 2px 5px rgb(96, 133, 228);
+}
+
+
+p3 {
+  color: rgb(59, 56, 56);
+  display: block;
+  block-size: 180px;
+  width: 43%;
+  position: absolute;
+  top: 204%;
+  padding-left: 8px;
+  padding-top: 18px;
+  border-radius: 20px;
+	box-shadow: 0 2px 5px rgb(252, 229, 229);
+	background-image: linear-gradient(rgba(63, 62, 62, 0.685), rgba(252, 248, 248, 0.685));
+}
+
+
+
+h3 {
+  
+  color: rgb(94, 92, 92);
+  border-radius: 25px;
+	box-shadow: 0 2px 5px rgb(252, 229, 229);
+	background-image: linear-gradient(rgba(63, 62, 62, 0.685), rgba(252, 248, 248, 0.685));
+}
+
+h2 {
+  color: rgb(94, 92, 92);
+  padding-left: 100px;
+  border-radius: 25px;
+	box-shadow: 0 2px 5px rgb(252, 229, 229);
+	background-image: linear-gradient(rgba(63, 62, 62, 0.685), rgba(252, 248, 248, 0.685));
+}
+img.img-fluid {
+  border-radius: 25px;
+	box-shadow: 0 2px 5px rgb(241, 91, 91);
+	background-image: linear-gradient(rgba(63, 62, 62, 0.685), rgba(252, 248, 248, 0.685));
+}
+/* ---------------work---------------- */
+
+.row.mx-auto {
+  display: flex;
+	flex-direction: row;
+	align-items: center;
+  width: 100%;
+  border-radius: 20px;
+	background-color: #ddddddab;
+}
+
+.card {
+  width: 100%;
+  margin-top: 35px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  float: left;
+  height: calc(100vh/2.2);
+  display: flexbox;
+	transition: all 1s ease;
+	background-image: linear-gradient(rgb(141, 141, 141), rgb(245, 248, 250));
+	box-shadow: 0 1px 5px rgb(46, 45, 45);
+  border-radius: 20px;
+  display: flex;
+	flex-direction: row;
+	flex-flow: row;
+	flex-wrap: wrap;
+	
+  
+}
+
+.card-img-top {
+  display: inline-block;
+  border-radius: 20px;
+  height: 50%;
+}
+
+
+.card img:hover {
+	opacity: 1;
+	transform: scale(1.05);
+	box-shadow: 0 2px 5px rgb(140, 226, 196);
+}
+.card-title {
+  color: rgb(94, 92, 92);
+  padding: 5px 0px 5px 0px;
+	box-shadow: 0 1px 5px rgb(46, 45, 45);
+  border-radius: 20px;
+  background-image: linear-gradient(#85d1adf8, #b5b7b8be);
+}
+.card-text {
+  color: rgb(94, 92, 92);
+  padding: 5px 5px 5px 5px;
+	box-shadow: 0 1px 5px rgb(46, 45, 45);
+  border-radius: 20px;
+  background-image: linear-gradient(#82dbebd7, #88a8afbe);
+  
+}
+.card-title:hover {
+  opacity: 1;
+	transform: scale(1.05);
+	box-shadow: 0 2px 5px rgb(245, 189, 91);
+}
+/* -------------Contact------------- */
+
+ .container-fluid {
+  padding: 10px 10px 30px 10px;
+	box-shadow: 0 1px 5px rgb(16, 15, 15);
+  border-radius: 20px;
+  background-image: linear-gradient(#3b3532d7, #d6bcb3be);
+}
+.bg-dark.text-center.text-white {
+  color: rgb(94, 92, 92);
+  padding-bottom: 10px;
+  padding: 5px 5px 5px 5px;
+	box-shadow: 0 1px 5px rgb(16, 15, 15);
+  border-radius: 20px;
+  background-image: linear-gradient(#3b3532d7, #d6bcb3be);
+}
+
+
+
 
 /* ------------Media Q---- */
 @media screen and (max-width:767px) {
   .navbar {
-      padding: 10px;
+      padding: 8px;
       
   }
+
+  h5 {
+    font-size: 25px;
+  }
+  p3 {
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 7px;
+  }
+.card-title {
+  padding: 2px;
+}
+
+
   .pic-content h5 {
       font-size: 25px;
       
@@ -79,9 +241,23 @@ body {
 
 @media screen and (max-width:479px) {
   .navbar {
-      padding: 7px;
-      
+      padding: 7px; 
   }
+
+  h2 {
+    font-size: 10px;
+  }
+  p3 {
+    font-size: 10px;
+  }
+  .card {
+    padding: 3px;
+  }
+  .card-title {
+    padding: 0px;
+  }
+
+
   .pic-content h5 {
       font-size: 20px;
       

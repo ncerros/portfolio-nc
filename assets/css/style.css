@@ -130,11 +130,7 @@ img.img-fluid {
 	background-image: linear-gradient(rgb(141, 141, 141), rgb(245, 248, 250));
 	box-shadow: 0 1px 5px rgb(46, 45, 45);
   border-radius: 20px;
-  /* display: flex;
-	flex-direction: row;
-	flex-flow: row;
-	flex-wrap: wrap;
-	 */
+
   
 }
 
@@ -205,27 +201,38 @@ img.img-fluid {
 /* ------------Media Q---- */
 @media screen and (max-width:767px) {
   .navbar {
-      padding: 8px;
+      padding: 3px;
       
   }
   
   h5 {
-    font-size: 25px;
+    font-size: 15px;
   }
   p3 {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .card {
     padding: 7px;
   }
+
+.card-img-top {
+  padding: 1px;
+
+}
 .card-title {
   padding: 2px;
+}
+.card-body a {
+  padding: 2px;
+}
+.card-text {
+  font-size: 15px;
 }
 
 
   .pic-content h5 {
-      font-size: 25px;
+      font-size: 15px;
       
   }
   .pic-content h1 {
@@ -240,39 +247,46 @@ img.img-fluid {
 
 @media screen and (max-width:479px) {
   .navbar {
-      padding: 7px; 
+      padding: 4px; 
   }
 
   h2 {
     font-size: 10px;
   }
+  
   p3 {
     font-size: 10px;
   }
-  .card-body {
-    font-size: 11px;
-  }
-  
-  
 
   .card {
-    padding: 3px;
+    padding: 4px;
   }
-  .card-title {
-    padding: 11px;
-  }
+
+.card-img-top {
+  padding: 1px;
+
+}
+.card-title {
+  padding: 1px;
+}
+.card-body a {
+  padding: 1px;
+}
+.card-text {
+  font-size: 10px;
+}
 
 
   .pic-content h5 {
-      font-size: 11px;
+      font-size: 10px;
       
   }
   .pic-content h1 {
-      font-size: 11px;
+      font-size: 10px;
       
   }
   .pic-content p {
-      font-size: 11px;
+      font-size: 10px;
       
   }
 

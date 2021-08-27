@@ -1,6 +1,6 @@
 # portfolio-nc
- I created my portfolio to provide some information about me, recent works, and contact
- information. 
+ I created my portfolio to provide some information about me, recent works, contact, and resume.
+  
 
  Technologies used:
  .Bootstrap
